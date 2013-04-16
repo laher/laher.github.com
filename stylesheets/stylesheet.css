@@ -21,10 +21,21 @@ section {
   margin: 0 0 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+*/
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+h1, h2 {
+  padding-top: 40px;
+}
+
+h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
-*/
+a.brand {
+  text-decoration: none;
+}
 /*
 li {
   line-height: 1.4 ;
@@ -232,10 +243,12 @@ hr {
 /* Links
    a, a:hover, a:visited
 */
-
-a {
+body a {
+  text-decoration: underline;
+/*
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+*/
 }
 
 /* Clearfix */
