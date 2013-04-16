@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta name="author" content="">
+
+  
+  <meta name="description" content="goxc
+
+goxc cross-compiles Go programs to (up to) 11 target platforms at once.
+
+goxc is written in Go but uses os.exec to call &#8216;go build&#8217...">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="/goxc/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/stylesheet.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="" rel="alternate" title="" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+
+     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+   
+   <title> - cross-compile your Go programs to all 9 platforms at once</title>
+   
+<link href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/spruce/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+
+</head>
+
+<body>
+
+   <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+         <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </a>
+
+   
+	               <div style='float:right'>
+               <div class="">
+               <ul class="nav">
+                  <li><a href="/">laher.net.nz</a></li>
+               </ul>
+               </div>
+            </div>
+
+            <a class="brand" href="/goxc/">goxc</a>
+            <div class="nav-collapse collapse">
+               <ul class="nav">
+                 <li><a href="/goxc/">Home</a></li>
+                 <li><a href="/goxc/dl/">Install</a></li>
+                 <li><a href="https://www.github.com/laher/goxc/">Code</a></li>
+                 <li><a href="https://www.github.com/laher/goxc/wiki">Wiki</a></li>
+                 <li><a href="https://www.github.com/laher/goxc/issues">Issues</a></li>
+                 <li><a href="mailto:goxc@laher.net.nz">Contact</a></li>
+               </ul>
+            </div><!--/.nav-collapse -->
+
+
+   
+
+	</div>
+      </div>
+   </div>
+
+<!--
+<hgroup>
+  <h1 class="site-title"><a href="/"></a></h1>
+  
+</hgroup>
+-->
+
+
+   <div class="container">
+   <!-- <div class="container showgrid"> -->
+      
+         <div id="sidebar" class="span-6 push-1 last">
+   <div class="sidebar-module" id='gsearcher'>
+
+      <div id="searchcontrol">
+
+      </div>
+
+   </div>
+
+   <div class="sidebar-module">
+      <!--
+      <div class="title"><a href='/tags'>Tags</a></div>
+      -->
+   </div>
+
+   <div class="sidebar-module">
+   </div>
+
+   <div class="sidebar-module">
+   </div>
+</div>
+
+      
+
+      <div id="main" class="span-17">
+               <h1 id='goxc'>goxc</h1>
+
+<p><a href='http://www.laher.net.nz/goxc'>goxc</a> cross-compiles Go programs to (up to) 11 target platforms at once.</p>
+
+<p>goxc is written in Go but uses <em>os.exec</em> to call &#8216;go build&#8217; with the appropriate flags &amp; env variables for each supported platform.</p>
+
+<p>goxc was inspired by Dave Cheney&#8217;s Bash script <a href='https://github.com/davecheney/golang-crosscompile'>golang-crosscompile</a>. BUT, goxc crosscompiles to all platforms at once. The artifacts are saved into a folder structure along with a markdown file of relative links.</p>
+
+<p>Thanks to <a href='https://github.com/dchest'>dchest</a> for the tidy-up and adding the zip feature, and <a href='https://bitbucket.org/matrixik'>matrixik</a> for his improvements and input.</p>
+
+<p><strong>NOTE: Version 0.5.0 (2013-03-24) is a major change. Please follow wiki links, <a href='https://github.com/laher/goxc/wiki/upgrading-0.5'>e.g. upgrading to 0.5</a> for more information!</strong></p>
+
+<h2 id='installation'>Installation</h2>
+
+<p>goxc requires the go source and the go toolchain.</p>
+
+<ol>
+<li>
+<p><a href='http://golang.org/doc/install/source'>Install go from source</a>. (Requires gcc (or MinGW) and &#8216;hg&#8217;)</p>
+</li>
+
+<li>
+<p>Install goxc:</p>
+
+<pre><code>    go get github.com/laher/goxc</code></pre>
+</li>
+</ol>
+
+<h2 id='basic_usage'>Basic Usage</h2>
+
+<h3 id='run_once'>Run once</h3>
+
+<p>To build the toolchains for all 11 platforms:</p>
+
+<pre><code>   goxc -t</code></pre>
+
+<h3 id='now_build_your_artifacts'>Now build your artifacts</h3>
+
+<p>To build zipped binaries for your app:</p>
+
+<pre><code>goxc path/to/app/folder</code></pre>
+
+<p>OR</p>
+
+<pre><code>cd path/to/app/folder
+goxc</code></pre>
+
+<h2 id='more_options'>More options</h2>
+
+<p>Use <code>goxc -h options</code> to list all options.</p>
+
+<ul>
+<li>
+<p>e.g. To restrict by OS and Architecture:</p>
+
+<p>goxc -os=linux -arch=&#8221;amd64 arm&#8221;</p>
+</li>
+
+<li>
+<p>e.g. To set a destination root folder and artifact version number:</p>
+
+<p>goxc -d=my/jekyll/site/downloads -pv=0.1.1</p>
+</li>
+
+<li>
+<p>&#8216;Package version&#8217; can be compiled into your app if you define a VERSION variable in your main package.</p>
+</li>
+</ul>
+
+<h2 id='tasks'>&#8220;Tasks&#8221;</h2>
+
+<p>goxc performs a number of operations, defined as tasks. You can specify tasks with the &#8216;-tasks&#8217; option.</p>
+
+<ul>
+<li><code>goxc -t</code> performs one task called &#8216;toolchain&#8217;. It&#8217;s the equivalent of <code>goxc -tasks=toolchain ~</code></li>
+
+<li>By default, <code>goxc</code> performs several tasks, which can be summarised as follows: * validate -&gt; (cross-)compile -&gt; package</li>
+
+<li>For a list of tasks, run <code>goxc -h tasks</code></li>
+</ul>
+
+<h2 id='outcome'>Outcome</h2>
+
+<p>By default, artifacts are generated and then immediately zipped into (outputfolder).</p>
+
+<p>e.g. /my/outputfolder/0.1.1/linux_arm/myapp_0.1.1_linux_arm.zip</p>
+
+<p>If you specified the version number -pv=123 then the filename would be myapp_0.1.1_linux_arm_123.zip.</p>
+
+<p>By default, the output folder is ($GOBIN)/(appname)-xc, and the version is &#8216;unknown&#8217;, but you can specify these.</p>
+
+<p>e.g.</p>
+
+<pre><code>  goxc -pv=0.1.1 -d=/home/me/myapp/ghpages/downloads/</code></pre>
+
+<p>If non-zipped, artifacts generated into a folder structure as follows:</p>
+
+<p>(outputfolder)/(version)/(OS)_(ARCH)/(appname)(.exe?)</p>
+
+<h2 id='configuration_file'>Configuration file</h2>
+
+<p>For repeatable builds (and some extra options), it is recomended to use goxc can use a configuration file to save and re-run compilations.</p>
+
+<p>To create a config file, just use the -wc (write config) option.</p>
+
+<pre><code>goxc -d=../site/downloads -os=&quot;linux windows&quot; -wc</code></pre>
+
+<p>The configuration file is documented in much more detail in <a href='https://github.com/laher/goxc/wiki/config'>the wiki</a></p>
+
+<h2 id='limitations'>Limitations</h2>
+
+<ul>
+<li>Tested on Linux, Windows (and Mac during an early version). Please test on Mac and <em>BSD</em></li>
+
+<li>Currently goxc is only designed to build standalone Go apps without linked libraries. You can try but YMMV</li>
+
+<li>Bug: issue with config overriding. Empty strings do not currently override non-empty strings. e.g. -pi=&#8221;&#8221; doesnt override the json setting PackageInfo</li>
+
+<li>The <em>API</em> is not considered stable yet, so please don&#8217;t start embedding goxc method calls in your code yet - unless you &#8216;Contact us&#8217; first! Then I can freeze some API details as required.</li>
+</ul>
+
+<h2 id='license'>License</h2>
+
+<p>Copyright 2013 Am Laher</p>
+
+<p>Licensed under the Apache License, Version 2.0 (the &#8220;License&#8221;); you may not use this file except in compliance with the License. You may obtain a copy of the License at</p>
+
+<p>http://www.apache.org/licenses/LICENSE-2.0</p>
+
+<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &#8220;AS IS&#8221; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<h2 id='see_also'>See also</h2>
+
+<ul>
+<li><a href='https://github.com/laher/goxc/wiki/todo'>TODOs</a></li>
+
+<li><a href='https://github.com/laher/goxc/wiki/changelog'>Changelog</a></li>
+
+<li><a href='https://github.com/laher/goxc/wiki/upgrading-0.5'>Upgrading to v0.5</a></li>
+
+<li>See also <a href='https://github.com/laher/golang-crosscompile'>my golang-crosscompile fork</a> for an added &#8216;go-build-all&#8217; task similar to goxc.</li>
+</ul>
+      </div>
+   </div>
+
+   <hr />
+<div class="container">
+<footer>
+<span  title="Content licenced under Creative Commons by-nc-sa 3.0">
+   <a title="Content licenced under Creative Commons by-nc-sa 3.0" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">&copy;</a>
+   2012-2013 
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://laher.github.com/" class="btny btn-github"><span class="icon"></span>GitHub</a>
+<div style='float:right'>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</div>
+</footer>
+</div>
+
+
+</body>
+</html>
