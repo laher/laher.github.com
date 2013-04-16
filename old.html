@@ -1,0 +1,47 @@
+---
+layout: cyborg
+---
+  <div>
+	  <article role="article">
+
+	    <header>
+	        <h1 class="entry-title">Am's code</h1>
+
+	   </header>
+	<p>
+	   Here's a few projects to start with. More to follow ...
+	<ul>
+		<li><a href="http://www.laher.net.nz/goxc">goxc</a> cross-compiles Go apps to multiple (up to 10) platforms at once. goxc is probably unpronounceable.</li>
+		<li><a href="http://www.laher.net.nz/mkdo">mkdo</a> is a command-line utility to make appropriate directories before running a given command.</li>
+		<li><a href="http://www.laher.net.nz/ChordialJS/">ChordialJS</a> is a pre-alpha javascript library for building guitar chords and progressions.</li>
+		<li><a href="https://github.com/laher/nettis">nettis</a> is an integration testing utility for network apps.</li>
+	</ul>
+	</p>
+	</article>
+
+</div>
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    <a href="/blog/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+</div>
+<aside class="sidebar">
+  {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>
