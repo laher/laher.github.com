@@ -1,6 +1,6 @@
 ---
 layout: cyborg
-title: cross-compile your Go programs to all 9 platforms at once
+title: goxc - a build tool for golang
 posts: 5
 sidebar: false
 sect: goxc
