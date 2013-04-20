@@ -9,7 +9,7 @@ Downloads
 
 Note: please use 'go get -u github.com/laher/goxc' instead of these binaries.
 
-*Binaries hosted on [bintray.com](http://bintray.com/laher/utils/goxc)*
+*Binaries hosted on [bintray.com](http://bintray.com/pkg/show/general/laher/utils/goxc)*
 
 goxc downloads (version 0.6.1)
 -------------

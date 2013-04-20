@@ -9,7 +9,7 @@ Downloads
 
 Note: Go users can use 'go get -u github.com/laher/mkdo' instead of these binaries.
 
-*Binaries hosted on [bintray.com](http://bintray.com/laher/utils/goxc)*
+*Binaries hosted on [bintray.com](http://bintray.com/pkg/show/general/laher/utils/mkdo)*
 
 mkdo downloads (version 0.0.7)
 -------------
