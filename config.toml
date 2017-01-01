@@ -13,7 +13,7 @@ MetaDataFormat = "yaml"
 # note that the theme expects author both here and in the
 # parameters section
 [author]
-    name = "A. Laher"
+    name = "Am Laher"
 
 # used by the theme
 [indexes]

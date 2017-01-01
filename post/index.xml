@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Am rambles on</title>
-    <link>http://www.laher.net.nz/index.xml</link>
-    <description>Recent content on Am rambles on</description>
+    <title>Posts on Am rambles on</title>
+    <link>http://www.laher.net.nz/post/index.xml</link>
+    <description>Recent content in Posts on Am rambles on</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Am Laher; all rights reserved.</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.laher.net.nz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.laher.net.nz/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello Blog</title>
