@@ -31,13 +31,13 @@ MetaDataFormat = "yaml"
 		# The three quotes allow the biography to span
 		# multiple lines. Must end with three, too.
 		short_bio = """
-Code, gophers, meetups, ebikes, parenthood, fart jokes.
+Coder, gopher, meetup organiser, ebiker, parent, loafer.
 """
 
 	[params.github]
 		account = "laher"
 	[params.linkedin]
-		account = "am.laher"
+		account = "korustar"
 		source  = "http://www.laher.net.nz"
 	[params.twitter]
 		account = "amfastic"
