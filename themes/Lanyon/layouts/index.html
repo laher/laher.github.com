@@ -12,7 +12,7 @@
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
-    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 
     {{ partial "head_includes.html" . }}
@@ -26,14 +26,12 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">Home</a>
+            <a href="/" title="Home">Am's Blog</a>
           </h3>
         </div>
       </div>
 
       <div class="container content">
-        <h1>Am's Blog</h1>
-
         <p class="lead">Code, gophers, ebikes, parenthood and fart noises.</p>
 
         <h1 class="post-title">Recent Posts</h1>
