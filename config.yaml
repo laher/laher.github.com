@@ -1,0 +1,11 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "http://www.laher.net.nz"
+title: "Am Laher - blog"
+canonifyurls: true
+theme: "Lanyon"
+...
