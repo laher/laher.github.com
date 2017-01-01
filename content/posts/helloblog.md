@@ -7,6 +7,6 @@ categories:
     - "microblog"
 ---
 
-# First post
+This new weblog will probably be about code, gophers, ebikes, parenthood and fart noises. 
 
-This is a new blog about code, gophers, ebikes, parenthood and fart noises. Hello, blog.
+Hello, blog.

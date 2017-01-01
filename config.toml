@@ -1,0 +1,46 @@
+baseurl = "http://www.laher.net.nz/"
+theme = "nixon"
+title = "Am rambles on"
+languageCode = "en-us"
+#disqusShortname = "nixon.example"
+copyright = "Copyright (c) 2017, Am Laher; all rights reserved."
+MetaDataFormat = "yaml"
+
+# used by Hugo shortcodes
+#GoogleAnalytics = "UA-XXXXX-Y"
+
+# note that the theme expects author both here and in the
+# parameters section
+[author]
+    name = "A. Laher"
+
+# used by the theme
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+[params]
+	copyright_years = "2017"
+	css_file = "/css/nixon.css"
+	domain_name = "laher.net.nz"
+	personal_site = "http://www.laher.net.nz"
+
+	[params.author]
+		name = "Am Laher"
+		# The three quotes allow the biography to span
+		# multiple lines. Must end with three, too.
+		short_bio = """
+Code, gophers, meetups, ebikes, parenthood, fart jokes.
+"""
+
+	[params.github]
+		account = "laher"
+	[params.linkedin]
+		account = "am.laher"
+		source  = "http://www.laher.net.nz"
+	[params.twitter]
+		account = "amfastic"
+
+	[params.license]
+		url = "http://creativecommons.org/licenses/by/3.0/"
+		attribution = "Some rights reserved"
