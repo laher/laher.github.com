@@ -9,7 +9,7 @@
     <atom:link href="http://www.laher.net.nz/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>First Post</title>
+      <title>Hello Blog</title>
       <link>http://www.laher.net.nz/posts/helloblog/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
@@ -18,7 +18,7 @@
 
 &lt;h1 id=&#34;first-post&#34;&gt;First post&lt;/h1&gt;
 
-&lt;p&gt;This is a new blog about code, gophers, ebikes, parenthood and fart noises. Proper into to follow.&lt;/p&gt;
+&lt;p&gt;This is a new blog about code, gophers, ebikes, parenthood and fart noises. Hello, blog.&lt;/p&gt;
 </description>
     </item>
     

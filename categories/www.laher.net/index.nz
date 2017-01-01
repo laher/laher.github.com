@@ -2,13 +2,14 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <base href="http://www.laher.net.nz">
-    <title> Categories </title>
-    <link rel="canonical" href="http://www.laher.net.nz/categories/">
+    <title> Www.Laher.Net.Nz </title>
+    <link rel="canonical" href="http://www.laher.net.nz/categories/www.laher.net/index.nz/">
     
 
 <link rel="stylesheet" href="http://www.laher.net.nz/css/poole.css">
@@ -52,21 +53,32 @@
       </div>
     </div>
 
-    
+  
     <div class="container content">
+      <h1 class="post-title">Recent Posts</h1>
         <section id="main">
           <div>
-            <h1>Archive of Posts, by category</h1>
-            <ul class="category">
-              
-              
-              <li><a href="http://www.laher.net.nz/categories/microblog"> microblog </a> (1 entries) </li>
-              
-              <li><a href="http://www.laher.net.nz/categories/www.laher.net.nz"> www.laher.net.nz </a> (1 entries) </li>
-              
-            </ul>
+            <h5><a href="http://www.laher.net.nz/categories">Full Category Index</a></h5>
+            <h2>Posts in &ldquo;Www.Laher.Net.Nz&rdquo;</h2>
+            
+            
+
+<article class="post">
+    <header>
+      <h2><a href='http://www.laher.net.nz/posts/helloblog/'> Hello Blog</a> </h2>
+      <div class="meta">Sun, Jan 1, 2017</div>
+    </header>
+
+    First post This is a new blog about code, gophers, ebikes, parenthood and fart noises. Hello, blog.
+    <footer>
+        <a href='http://www.laher.net.nz/posts/helloblog/'><nobr>Read more →</nobr></a>
+    </footer>
+</article>
+
+            
           </div>
         </section>
+
     </div>
   </div>
 
