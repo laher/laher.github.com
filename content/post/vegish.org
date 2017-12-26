@@ -2,7 +2,7 @@
 title: "Vegish"
 date: 2017-12-26T17:23:36+13:00
 author: "Am Laher"
-cover: "/img/patator.jpg"
+cover: "/img/patator.png"
 tags: ["vegan", "vegish", "cholesterol"]
 draft: true
 ---
