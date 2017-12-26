@@ -1,8 +1,12 @@
 baseurl = "http://www.laher.net.nz/"
-theme = "nixon"
+theme = "nuo"
 title = "Am's blog"
 languageCode = "en-us"
 publishdir = "."
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
 #disqusShortname = "nixon.example"
 copyright = "Copyright (c) 2017, Am Laher; some rights reserved."
 MetaDataFormat = "yaml"
@@ -21,12 +25,44 @@ MetaDataFormat = "yaml"
     topic = "topics"
 
 [params]
+  author = "Am Laher"
+  avatar = "/img/gopher-cowboy.png"
+  yavatar = "/img/avatar.jpg"
+  seotitle = "Am"
+  xsubtitle = "~ Yup ~"
+  description = "Coder, gopher, meetup organiser, ebiker, parent, part-time-vegan, student of kung fu and taiji."
+  paginate = 10
+
+  github = "laher"
+  twitter = "amfastic"
+  linkedin = "korustar"
+  medium = "ambot"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Code"
+  weight = 20
+  identifier = "code"
+  url = "https://github.com/laher"
+
+[[xmenu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+[paramsx]
 	copyright_years = "2017"
 	css_file = "/css/nixon.css"
 	domain_name = "laher.net.nz"
 	personal_site = "http://www.laher.net.nz"
 
-	[params.author]
+	[paramsx.author]
 		name = "Am Laher"
 		# The three quotes allow the biography to span
 		# multiple lines. Must end with three, too.
@@ -34,14 +70,14 @@ MetaDataFormat = "yaml"
 Coder, gopher, meetup organiser, ebiker, parent, loafer.
 """
 
-	[params.github]
+	[paramsx.github]
 		account = "laher"
-	[params.linkedin]
+	[paramsx.linkedin]
 		account = "korustar"
 		source  = "http://www.laher.net.nz"
-	[params.twitter]
+	[paramsx.twitter]
 		account = "amfastic"
 
-	[params.license]
+	[paramsx.license]
 		url = "http://creativecommons.org/licenses/by/3.0/"
 		attribution = "Some rights reserved"
