@@ -1,10 +1,10 @@
 baseurl = "http://www.laher.net.nz/"
 theme = "nixon"
-title = "Am rambles on"
+title = "Am's blog"
 languageCode = "en-us"
 publishdir = "."
 #disqusShortname = "nixon.example"
-copyright = "Copyright (c) 2017, Am Laher; all rights reserved."
+copyright = "Copyright (c) 2017, Am Laher; some rights reserved."
 MetaDataFormat = "yaml"
 
 # used by Hugo shortcodes
