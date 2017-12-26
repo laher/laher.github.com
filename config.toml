@@ -27,7 +27,6 @@ MetaDataFormat = "yaml"
 [params]
   author = "Am Laher"
   avatar = "/img/gopher-cowboy.png"
-  yavatar = "/img/avatar.jpg"
   seotitle = "Am"
   xsubtitle = "~ Yup ~"
   description = "Coder, gopher, meetup organiser, ebiker, parent, part-time-vegan, student of kung fu and taiji."
