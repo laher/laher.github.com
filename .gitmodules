@@ -1,0 +1,4 @@
+
+[submodule "networkhobo"]
+	path = networkhobo
+	url = https://github.com/dancwilliams/networkhobo

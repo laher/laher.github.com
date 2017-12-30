@@ -1,0 +1,100 @@
+baseurl = "https://networkhobo.com/"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Network Hobo"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "network-hobo"
+googleAnalytics = "UA-101026183-1"
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+[Params]
+  subtitle = "Thumbin' my way down the information superhighway..."
+  logo = "img/cropped-networkhobo.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = "https://github.com/dancwilliams/networkhobo/tree/"
+  rss = true
+  comments = true
+  gcse = "015770664108612180781:in6ix6y_v9o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
+  recaptcha_secret = "kDfDJownZ5tj8xiZ916uNgAGQzoNeS6U0IKw8+ZMyxpWrreHSD6QfwU4e/tii4z2rHgFd+VxJc0jmmmuDyEF2bTsXEkNJuyagCs0f/yfTDYm0ZsWzu/aAbDZ8hNQmsXniHgJYyXOe1l9vdzsuBpqLIkVdyMTp8BULdNNcGeZkp4="
+  staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
+  githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
+  adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
+  adsenseAdID = "8021396735"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Dan C Williams"
+  email = "dan@networkhobo.com"
+#  facebook = "username"
+#  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "dancwilliams"
+  twitter = "dancwilliams"
+#  reddit = "username"
+  linkedin = "danielcwilliams"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+  youtube = "channel/UCHuOvIJOUujSGpt021fYxww" # or user/dancwilliams
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 2
+
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
+[[menu.main]]
+    name = "Categories"
+    url = "categories"
+    weight = 4
+
+[[menu.main]]
+    name = "Roadmap"
+    url = "roadmap"
+    weight = 5
