@@ -1,6 +1,4 @@
-[submodule "themes/nuo"]
-	path = themes/nuo
-	url = https://github.com/laozhu/hugo-nuo
-[submodule "themes/beautifulhugo"]
-	path = themes/beautifulhugo
-	url = https://github.com/halogenica/beautifulhugo
+
+[submodule "networkhobo"]
+	path = networkhobo
+	url = https://github.com/dancwilliams/networkhobo
