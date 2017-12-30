@@ -50,18 +50,10 @@ MetaDataFormat = "yaml"
   rss = true
   comments = true
   readingTime = true
-  staticman_api = "https://api.staticman.net/v2/entry/laher/laher.github.com/master/comments"
+  staticman_api = "https://api.staticman.net/v2/entry/laher/laher.github.com/dev/comments"
   githubPullURL = "https://github.com/laher/laher.github.com/pulls"
   recaptcha_siteKey = "6LdYyT4UAAAAADcJ9kCDu2gB5k0qWTmumF_CojUT"
   recaptcha_secret = "0YfpHkFUdaw82rHHU2aYKraf9ohs57LXp/HibCwyoBbjkEB3T63qGpGAgSUX6OBSltLcwCll6VaM3lZ4nUZihyMnTJLbwLDAEludUERNxgecDTarSqRGdB+gXmyNLdtmKXjF9rDmcZK6FEVRpBsZWLqgSOhrgyMHnfZsfEhhd+g="
-
-  [Params.staticman]
-    api = "https://api.staticman.net/v2/entry/laher/laher-net-nz-comments/master/comments"
-    pulls = "https://github.com/laher/laher-net-nz-comments/pulls"
-
-    [Params.staticman.recaptcha]
-      sitekey = "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
-      secret = "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
 
 [Author]
   name = "Am Laher"
