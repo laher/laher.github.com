@@ -10,8 +10,10 @@
     <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
     <input type="hidden" name="options[parent]" value="{{ .File.BaseFileName }}">
     <input type="hidden" name="fields[reply_to]" value="">
+    {{ if .Site.Params.recaptcha_siteKey }}
     <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha_siteKey }}">
     <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
+    {{ end }}
 
     <fieldset>
       <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
@@ -33,7 +35,9 @@
     </fieldset>
 
     <fieldset>
+      {{ if .Site.Params.recaptcha_siteKey }}
       <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_siteKey }}" data-callback="enableBtn"></div>
+      {{ end }}
 
       <input type="submit" class="post-comment-field btn" value="Submit" id="submit_button">
     </fieldset>
@@ -43,9 +47,11 @@
   <script async src='https://www.google.com/recaptcha/api.js' ></script>
 
 
+      {{ if .Site.Params.recaptcha_siteKey }}
   <script type="text/javascript">
     document.getElementById("submit_button").disabled = true;
   </script>
+      {{ end }}
   
   <script type="text/javascript">
     function enableBtn(){

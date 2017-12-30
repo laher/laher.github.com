@@ -15,4 +15,8 @@ comments:
       options:
         format      : "iso8601"
   name: "www.laher.net.nz"
+  reCaptcha:
+    enabled: true
+    siteKey: 6LdYyT4UAAAAADcJ9kCDu2gB5k0qWTmumF_CojUT
+    secret: 0YfpHkFUdaw82rHHU2aYKraf9ohs57LXp/HibCwyoBbjkEB3T63qGpGAgSUX6OBSltLcwCll6VaM3lZ4nUZihyMnTJLbwLDAEludUERNxgecDTarSqRGdB+gXmyNLdtmKXjF9rDmcZK6FEVRpBsZWLqgSOhrgyMHnfZsfEhhd+g=
 
