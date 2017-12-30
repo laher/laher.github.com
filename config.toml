@@ -1,11 +1,14 @@
 baseurl = "http://www.laher.net.nz/"
-theme = "nuo"
+theme = "beautifulhugo"
 title = "Am's blog"
 languageCode = "en-us"
 publishdir = "."
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
 
 #disqusShortname = "nixon.example"
 copyright = "Copyright (c) 2017, Am Laher; some rights reserved."
@@ -24,11 +27,10 @@ MetaDataFormat = "yaml"
     tag = "tags"
     topic = "topics"
 
-[params]
+[xparams]
   author = "Am Laher"
   avatar = "/img/gopher-cowboy.png"
   seotitle = "Am"
-  xsubtitle = "~ Yup ~"
   description = "Coder, gopher, meetup organiser, ebiker, parent, part-time-vegan, student of kung fu and taiji."
   paginate = 10
 
@@ -36,6 +38,25 @@ MetaDataFormat = "yaml"
   twitter = "amfastic"
   linkedin = "korustar"
   medium = "ambot"
+
+[Params]
+  logo = "/img/gopher-cowboy.png"
+  xsubtitle = "~ Yup ~"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+
+[Author]
+  github = "laher"
+  twitter = "amfastic"
+  linkedin = "korustar"
+  medium = "ambot"
+
+[staticman]
+    api = "https://api.staticman.net/v2/entry/laher/laher-net-nz-comments/master/comments"
+    pulls = "https://github.com/laher/laher-net-nz-comments/pulls"
 
 [[menu.main]]
   name = "Home"
