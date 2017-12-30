@@ -22,3 +22,6 @@ deploy:
   on:
     branch: dev
 
+branches:
+  only:
+  - dev
