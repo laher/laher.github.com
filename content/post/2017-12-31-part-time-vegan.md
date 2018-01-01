@@ -64,4 +64,4 @@ Recognising that I could concoct basic foods for the first few weeks of part-tim
 
 In the future I'll share some details about my approach, my doubts and reservations, and how I think more people could benefit from this approach.
 
-For now, part-time veganning is the solution for me. I've got a few tools, and I'm about 6 weeks in. I'm hoping my bad-cholesterol levels will go down quickly, and I'll post some results after my next blood test.
+For now, part-time veganning is the solution for me. I've got some recipes, a few tools, and I'm about 6 weeks in. I'm hoping my bad-cholesterol levels will go down quickly, but there's no guarantees - I'll post some results after my next blood test. It make for an interestng study.
