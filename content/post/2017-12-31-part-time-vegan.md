@@ -20,7 +20,7 @@ As a meat-loving, milk-guzzling, buttery-cheese freak, I have emotional attachme
 
 Cholesterol is a type of fat circulating in your blood. If you have too much you can get into real trouble. I don't know if it's technically hereditary, but it's been a problem in my [father's] family for generations.
 
-I have a cholesterol level of 6.4. Ideally you should be about 4.0, and NZ Health recommend 5.0 or under. *Note that there's more than one type of cholesterol - I have enough of the good stuff, but too much of the bad stuff*
+I have a cholesterol level of 6.4. Ideally you should be about 4.0, and NZ Health recommend 5.0 or under. *Note that there's more than one type of cholesterol - I have enough of the good stuff, but way too much of the bad stuff.*
 
 
 ## How to reduce cholesterol.
@@ -55,13 +55,12 @@ Going back some years, I was doing the wrong things. Lots of takeaways, drinking
 
 # Enter stage left, part-time veganism
 
-It just struck me that almost all of the high cholesterol food that I eat are due to meat, dairy and eggs. If I could just cut back heavily on those foods somehow, I should be able to fight off the cholesterol pretty quick IMO. Also, some veganism might make me feel good about my place in the world. Sheeps and piggies never called me 'hippy', yet here I am eating animals instead of humans.
+It struck me that almost all of the high cholesterol food that I eat are meat, dairy and eggs. If I could cut back heavily on those foods somehow, the 'bad' cholesterol should fall away pretty quick. Also, a bit of veganism might make me feel good about my place in the world. Sheeps and piggies never called me 'hippy', yet here I am eating animals instead of humans.
 
-Recognising that I could concoct basic foods for the first few weeks of part-time veganning (porridge with soymilk, lentil curries for lunches, and vege sausages for dinner), I went ahead and dove in about 6 weeks ago. I've managed to branch out to more exciting meals, and I don't seem to have any problems with cravings - after all I can eat my old favourites on the weekend.
-
+Realising that I could put together enough basic concoctions for the first few weeks of part-time veganning (porridge with soymilk, lentil curries for lunches, and vege sausages for dinner), I just dove in, and read up on recipe ideas as I went. That was about 6 weeks ago; since then I've managed to branch out to more exciting meals - Mexican and Greek, among others - and I don't seem to have major problems with cravings - after all I can eat my old favourites on the weekend.
 
 # [Falafel-]wrapping up
 
-In the future I'll share some details about my approach, my doubts and reservations, and how I think more people could benefit from this approach.
+In the future I'll share some details about my approach, my doubts and reservations, and how I think more people could benefit from this.
 
-For now, part-time veganning is the solution for me. I've got some recipes, a few tools, and I'm about 6 weeks in. I'm hoping my bad-cholesterol levels will go down quickly, but there's no guarantees - I'll post some results after my next blood test. It make for an interestng study.
+For now, part-time veganism is working for me. I've got some recipes, some ideas, and after about 6 weeks I'm feeling reasonably confident that I can pull it off in the medium term at least. I'm hoping my bad-cholesterol levels will go down quickly, but there's no guarantees - I'll post some results after my next blood test. It make for an interestng study.
