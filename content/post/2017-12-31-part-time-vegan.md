@@ -3,6 +3,8 @@ title: "The Part Time Vegan"
 date: 2017-12-31T09:11:09+13:00
 draft: false
 tags: ["vegan", "diet", "cholesterol"]
+canonicalurl: http://www.laher.net.nz/2017/12/31/the-part-time-vegan/
+publishstatus: draft
 ---
 
 I think I've found a way to address my high cholesterol and I think you can too.
