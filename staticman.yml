@@ -1,0 +1,42 @@
+comments:
+  allowedFields: ["name", "email", "website", "body", "reply_to"]
+  allowedOrigins: ["localhost", "www.laher.net.nz"]
+  branch            : "master"
+  commitMessage     : "New comment in {options.slug}"
+  path: "data/comments/{options.entryId}"
+  filename          : "comment-{@timestamp}"
+  format            : "yaml"
+  moderation        : false
+  requiredFields    : ['name', 'body']
+  transforms:
+    email           : md5
+  generatedFields:
+    date:
+      type          : "date"
+      options:
+        format      : "iso8601"
+  name: "www.laher.net.nz"
+
+reCaptcha:
+  enabled: true
+  siteKey: "6LdYyT4UAAAAADcJ9kCDu2gB5k0qWTmumF_CojUT"
+  secret: "0YfpHkFUdaw82rHHU2aYKraf9ohs57LXp/HibCwyoBbjkEB3T63qGpGAgSUX6OBSltLcwCll6VaM3lZ4nUZihyMnTJLbwLDAEludUERNxgecDTarSqRGdB+gXmyNLdtmKXjF9rDmcZK6FEVRpBsZWLqgSOhrgyMHnfZsfEhhd+g="
+  allowedFields: ["title", "body"]
+  allowedOrigins: ["localhost", "www.laher.net.nz"]
+  branch: "master"
+  generatedFields:
+    date:
+      type: date
+    slug:
+      type: slugify
+      options:
+        field: title
+    tags: ["user-generated"]
+  format: "frontmatter"
+  moderation: true
+  name: "Am Laher"
+  path: "content/post"
+  filename: "{fields.slug}"
+  requiredFields: ["title", "body"]
+  transforms:
+    body: "frontmatterContent"
