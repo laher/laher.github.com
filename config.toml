@@ -1,0 +1,108 @@
+baseurl = "http://www.laher.net.nz/"
+theme = "beautifulhugo"
+title = "Am's blog"
+languageCode = "en-us"
+publishdir = "."
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+#disqusShortname = "nixon.example"
+copyright = "Copyright (c) 2017, Am Laher; some rights reserved."
+MetaDataFormat = "yaml"
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+# used by Hugo shortcodes
+#GoogleAnalytics = "UA-XXXXX-Y"
+
+# note that the theme expects author both here and in the
+# parameters section
+[xauthor]
+    name = "Am Laher"
+
+# used by the theme
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+[xparams]
+  author = "Am Laher"
+  avatar = "/img/gopher-cowboy.png"
+  seotitle = "Am"
+  description = "Coder, gopher, meetup organiser, ebiker, parent, part-time-vegan, student of kung fu and taiji."
+  paginate = 10
+
+  github = "laher"
+  twitter = "amfastic"
+  linkedin = "korustar"
+  medium = "ambot"
+
+[Params]
+  logo = "/img/gopher-cowboy.png"
+  xsubtitle = "~ Yup ~"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  staticman_api = "https://api.staticman.net/v2/entry/laher/laher.github.com/dev/comments"
+  githubPullURL = "https://github.com/laher/laher.github.com/pulls"
+  recaptcha_siteKey = "6LdYyT4UAAAAADcJ9kCDu2gB5k0qWTmumF_CojUT"
+  recaptcha_secret = "0YfpHkFUdaw82rHHU2aYKraf9ohs57LXp/HibCwyoBbjkEB3T63qGpGAgSUX6OBSltLcwCll6VaM3lZ4nUZihyMnTJLbwLDAEludUERNxgecDTarSqRGdB+gXmyNLdtmKXjF9rDmcZK6FEVRpBsZWLqgSOhrgyMHnfZsfEhhd+g="
+
+[Author]
+  name = "Am Laher"
+  github = "laher"
+  twitter = "amfastic"
+  linkedin = "korustar"
+  medium = "ambot"
+
+	
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Code"
+  weight = 20
+  identifier = "code"
+  url = "https://github.com/laher"
+
+[[xmenu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+[paramsx]
+	copyright_years = "2017"
+	css_file = "/css/nixon.css"
+	domain_name = "laher.net.nz"
+	personal_site = "http://www.laher.net.nz"
+
+	[paramsx.author]
+		name = "Am Laher"
+		# The three quotes allow the biography to span
+		# multiple lines. Must end with three, too.
+		short_bio = """
+Coder, gopher, meetup organiser, ebiker, parent, loafer.
+"""
+
+	[paramsx.github]
+		account = "laher"
+	[paramsx.linkedin]
+		account = "korustar"
+		source  = "http://www.laher.net.nz"
+	[paramsx.twitter]
+		account = "amfastic"
+
+	[paramsx.license]
+		url = "http://creativecommons.org/licenses/by/3.0/"
+		attribution = "Some rights reserved"

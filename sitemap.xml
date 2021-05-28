@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.laher.net.nz/2017/12/31/the-part-time-vegan/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/2017/01/01/hello-blog/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/tags/cholesterol/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/tags/diet/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/post/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/tags/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.laher.net.nz/tags/vegan/</loc>
+    <lastmod>2017-12-31T09:11:09+13:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
